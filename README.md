@@ -149,8 +149,8 @@ Con esto explicamos un poco el flujo de trabajo
 - Cuando la release rama está terminada, se fusiona en develop y main
 - Si main se detecta un problema en, hotfix se crea una rama desde main
 - Una vez que hotfix se completa, se fusiona con ambos develop y main
-- ![Gitflow-cheatsheet](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-- ![Gitflow-tutoriales](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- [Gitflow-cheatsheet](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- [Gitflow-tutoriales](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 ![Imagen-Fredy](https://static.platzi.com/media/public/uploads/branches_f9d7e237-6a15-4143-a4e9-cc5af06be833.PNG)
 
@@ -160,10 +160,10 @@ Las ramas o branches en Git son la forma de divider nuestro proyecto y hacer cam
 
 **¿Cómo crear ramas?** Al momento de crear una rama con el comando en terminal, lo que hace es copiar el proyecto y sus commit desde el origen hasta la nueva rama. Por eso es importante que creemos estas ramas desde la versión de producción y a su vez sigamos creando ramas para sus diferentes aplicaciones, release´s, develop, hotfix, etc... Dependiendo la organización del proyecto.
 
-`git branch <branchName>` -> Crea una rama y copia los commits
-`git checkout <branchName>` -> Movernos entre ramas
-`git checkout -b <new-branchName>` -> Crear nueva rama y pasarnos a ella
-`git branch -D <branchName>` -> Borrar rama
+- `git branch <branchName>` -> Crea una rama y copia los commits
+- `git checkout <branchName>` -> Movernos entre ramas
+- `git checkout -b <new-branchName>` -> Crear nueva rama y pasarnos a ella
+- `git branch -D <branchName>` -> Borrar rama
 
 # Fusión de ramas con Git merge
 
@@ -307,9 +307,10 @@ Comandos para trabajar con etiquetas:
 
 Puedes trabajar con multiples ramas que puedes o no enviar a GitHub y viceversa ramas que no necesitaras en local.
 
-Crear una rama: `git branch <branchNeme>`
-Enviar rama al repositorio remoto: `git push <branchName>`
-Ver ramas `git show-branch --all` o `git branch -a`
+- Crear una rama: `git branch <branchNeme>`
+- Enviar rama al repositorio remoto: `git push <branchName>`
+- Ver ramas `git show-branch --all` o `git branch -a`
+- Borrar ramas: `git branch -D <branchName>` y después hacer el push al origen remoto
 
 > NOTA.- Recuerda hacer pull del origin y estar actualizado antes de hacer un push.
 
