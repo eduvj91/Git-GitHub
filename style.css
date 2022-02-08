@@ -11,13 +11,12 @@ body{
 /* Cabecera */
 
 #cabecera{
-  background-color: blue;
-  box-shadow: 0px 2px 20px 0px black;
+  background: #33A;
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
   color: white;
-  font-size: 1.2em;
   font-weight: bold;
   margin: 0;
-  padding: 0.4rem;
+  padding: 0.5em;
 }
 
 #tagline{
@@ -35,4 +34,8 @@ body{
   border: 1px solid red;
   margin: 0 auto;
   font-family: 'Courier New', Courier, monospace;
+}
+
+#post{
+  padding: 1em;
 }
