@@ -310,9 +310,9 @@ Puedes trabajar con multiples ramas que puedes o no enviar a GitHub y viceversa 
 - Crear una rama: `git branch <branchNeme>`
 - Enviar rama al repositorio remoto: `git push <branchName>`
 - Ver ramas `git show-branch --all` o `git branch -a`
-- Borrar ramas: `git branch -D <branchName>` y después hacer el push al origen remoto
+- Borrar ramas: `git branch -D <branchName>` y `git push origin --delete <branch>`
 
-> NOTA.- Recuerda hacer pull del origin y estar actualizado antes de hacer un push.
+> NOTA.- Recuerda hacer pull del origin y estar actualizado antes de hacer un push o commits.
 
 # Configurar múltiples colaboradores en un repositorio de GitHub
 
